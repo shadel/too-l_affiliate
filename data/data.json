@@ -1,0 +1,23 @@
+[
+  {
+    "UID": "100010044456458",
+    "Status": "Live",
+    "Password": "password123",
+    "TwoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+    "Cookie": "c_user=100010044456458;xs=48..."
+  },
+  {
+    "UID": "100010044456459",
+    "Status": "Live",
+    "Password": "password456",
+    "TwoFA": "",
+    "Cookie": "c_user=100010044456459;xs=48... "
+  },
+  {
+    "UID": "100010044456460",
+    "Status": "Live",
+    "Password": "password789",
+    "TwoFA": "",
+    "Cookie": ""
+  }
+]

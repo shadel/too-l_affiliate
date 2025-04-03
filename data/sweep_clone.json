@@ -1,0 +1,349 @@
+[
+    {
+        "name_groups": "adadad",
+        "data": [
+            {
+                "uid": "100010044456458",
+                "password": "abc123",
+                "twoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+                "cookie": "c_user=100010044456458;xs=48:vPXhb2Z5dA:2:1673891577:-1:-1;fr=0DAfwQLNasdK5QiFd.AWVVbySjrUZ5RgxR_7RS-7m4UiQ.BkTy25.Ic.AAA.0.0.BkTy25.AWX0000kkkk",
+                "status": "Live",
+                "addedAt": "2024-03-25T10:30:00.000Z"
+            },
+            {
+                "uid": "10001004445f6458",
+                "password": "password123",
+                "twoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+                "cookie": "c_user=100010044456458;xs=48...",
+                "status": "Live",
+                "addedAt": "2024-12-25T14:20:19.402Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "shinsad",
+        "data": [
+            {
+                "uid": "100010044456458",
+                "password": "password123",
+                "twoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+                "cookie": "c_user=100010044456458;xs=48...",
+                "status": "Live",
+                "addedAt": "2024-12-25T16:23:28.400Z"
+            },
+            {
+                "uid": "100010044456459",
+                "password": "password456",
+                "twoFA": "",
+                "cookie": "c_user=100010044456459;xs=48... ",
+                "status": "Live",
+                "addedAt": "2024-12-25T16:23:28.400Z"
+            },
+            {
+                "uid": "100010044456460",
+                "password": "password789",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2024-12-25T16:23:28.400Z"
+            },
+            {
+                "uid": "uid",
+                "password": "pass",
+                "twoFA": "shinsadadsadasd",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:58:57.905Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "dfdfdfdfdf",
+        "data": [
+            {
+                "uid": "100010044456458",
+                "password": "password123",
+                "twoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+                "cookie": "c_user=100010044456458;xs=48...",
+                "status": "Live",
+                "addedAt": "2024-12-25T17:07:27.053Z"
+            },
+            {
+                "uid": "100010044456459",
+                "password": "password456",
+                "twoFA": "",
+                "cookie": "c_user=100010044456459;xs=48... ",
+                "status": "Live",
+                "addedAt": "2024-12-25T17:07:27.053Z"
+            },
+            {
+                "uid": "100010044456460",
+                "password": "password789",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2024-12-25T17:07:27.053Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "tesstt",
+        "data": [
+            {
+                "uid": "61566322181078",
+                "password": "\u00c3\u00a0\u00c2\u00a4\u00c2\u00b5\u00c3\u00a0\u00c2\u00a4\u00c2\u00b6\u00c3\u00a0\u00c2\u00a4\u00c2\u00ae\u00c3\u00a0\u00c2\u00a5\u00e2\u20ac\u00b9\u00c3\u00a0\u00c2\u00a4\u00c2\u00b0\u00c3\u00a0\u00c2\u00a5\u00e2\u20ac\u00a1\u00c3\u00a0\u00c2\u00a4\u00c2\u00b6\u00c3\u00a0\u00c2\u00a4\u00c2\u00b5\u00c3\u00a0\u00c2\u00a4\u00c2\u00bf\u00c3\u00a0\u00c2\u00a4\u00c2\u00b2\u00c3\u00a0\u00c2\u00a4\u00c2\u00be\u00c3\u00a0\u00c2\u00a4\u00c2\u00b8Yz",
+                "twoFA": "",
+                "cookie": "ps_l=1;ps_n=1;c_user=61566322181078;datr=lc6LZ54ZWSIA3Dnu_nuE3k5l;sb=lc6LZ2Ie5CEQzp2NNlpma6To;wd=514x968;fr=1QFtMEeXtwBCyvuJH.AWV4S4pzSgEOYj0LD3YX3ecuBS0.BnkT8q..AAA.0.0.BnkT8q.AWUXFChqM-Y;xs=8%3A5M-mZYJf2h__EA%3A2%3A1734974138%3A-1%3A14114%3A%3AAcW7_7JctmELGvXyWMQKl4-Ws0ft0EkfN6z3P5CLOQ;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737572139087%2C%22v%22%3A1%7D;",
+                "status": "Live",
+                "addedAt": "2024-12-26T17:47:20.674Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "ff",
+        "data": [
+            {
+                "uid": "100010044456458",
+                "password": "password123",
+                "twoFA": "5W51E877BNINGUBLMCZTY5OYTEOCQQ2",
+                "cookie": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+                "status": "Live",
+                "addedAt": "2025-01-22T16:51:01.512Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "test2",
+        "data": [
+            {
+                "uid": "",
+                "password": "",
+                "twoFA": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;c_user=100082148649666;locale=vi_VN;ar_debug=1;wd=1920x991;fr=1gQOEvWBDEqDib39B.AWVc8pjTLhwWdYyTvVbqHx8lXOCsSZOB2rFb2g.BnoJMu..AAA.0.0.BnoJMu.AWV3Q6bo8q8;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297%3A%3AAcX8fj62CtMNkrRZ8ObAw5XuLTs5P2q9lnt525Xvfd8;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22u.100023915460070%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22sc.9165894013448890%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22sc.7304082919712296%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22u.570688346119007%22%7D%5D%2C%22utc3%22%3A1738577618690%2C%22v%22%3A1%7D;",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-02-03T10:47:51.917Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "test3",
+        "data": [
+            {
+                "uid": "",
+                "password": "",
+                "twoFA": "",
+                "cookie": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;c_user=100082148649666;locale=vi_VN;ar_debug=1;wd=1920x991;fr=1gQOEvWBDEqDib39B.AWVc8pjTLhwWdYyTvVbqHx8lXOCsSZOB2rFb2g.BnoJMu..AAA.0.0.BnoJMu.AWV3Q6bo8q8;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297%3A%3AAcX8fj62CtMNkrRZ8ObAw5XuLTs5P2q9lnt525Xvfd8;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22u.100023915460070%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22sc.9165894013448890%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22sc.7304082919712296%22%7D%2C%7B%22o%22%3A0%2C%22i%22%3A%22u.570688346119007%22%7D%5D%2C%22utc3%22%3A1738577618690%2C%22v%22%3A1%7D;",
+                "status": "Live",
+                "addedAt": "2025-02-03T10:48:14.387Z"
+            }
+        ]
+    },
+    {
+        "name_groups": "",
+        "data": [
+            {
+                "uid": "dsfsdfsdfsdf",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:26:07.087Z"
+            },
+            {
+                "uid": "324234234:324234",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:26:21.943Z"
+            },
+            {
+                "uid": "12435345$:345345",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:27:26.847Z"
+            },
+            {
+                "uid": "32423423423:234:234234:23423",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:28:35.479Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:30:39.175Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:30:39.175Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:30:49.015Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:31:28.831Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:34:25.342Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:34:35.150Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:34:43.414Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:34:43.414Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:34:43.414Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:25.760Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:43.296Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:43.296Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:43.296Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:43.296Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:36:48.680Z"
+            },
+            {
+                "uid": "192.168.1.1:8080:user:pass",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:38:20.959Z"
+            },
+            {
+                "uid": "sdfsdfdsf",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:40:10.127Z"
+            },
+            {
+                "uid": "sdfsdfs",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:40:35.520Z"
+            },
+            {
+                "uid": "gfhgfh",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:41:17.808Z"
+            },
+            {
+                "uid": "fdsfsdf",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:45:48.567Z"
+            },
+            {
+                "uid": "45435345345345",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:46:05.079Z"
+            },
+            {
+                "uid": "ip:port:username:password",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:54:18.416Z"
+            },
+            {
+                "uid": "ip:port:username:password",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:54:18.416Z"
+            },
+            {
+                "uid": "ip:port:username:password",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:54:24.464Z"
+            },
+            {
+                "uid": "ip:port:username:password",
+                "twoFA": "",
+                "cookie": "",
+                "status": "Live",
+                "addedAt": "2025-04-01T09:54:24.464Z"
+            }
+        ]
+    }
+]

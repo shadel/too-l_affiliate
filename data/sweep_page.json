@@ -1,0 +1,693 @@
+[
+  {
+    "name_groups": "ff",
+    "data": [
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Shin Sad (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084352202225",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084352202225",
+        "url_page": "https://www.facebook.com/100084352202225",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "BopClub88",
+        "uid_page": "61554135480481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=61554135480481",
+        "url_page": "https://www.facebook.com/61554135480481",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "My Linh (\\u0110I\\u00ean Bi\\u00ean Ph\\u1ee7)",
+        "uid_page": "100084139482816",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084139482816",
+        "url_page": "https://www.facebook.com/100084139482816",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6792915009 (VoLiBear_6792915009, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084320403722",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084320403722",
+        "url_page": "https://www.facebook.com/100084320403722",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9781421192 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084216818856",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084216818856",
+        "url_page": "https://www.facebook.com/100084216818856",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "My Duyen",
+        "uid_page": "100084015438543",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084015438543",
+        "url_page": "https://www.facebook.com/100084015438543",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Anh Ngoc (Bu\\u00f4n Ma Thu\\u1ed9t, \\u0110\\u1eafk L\\u1eafk)",
+        "uid_page": "100084237757841",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084237757841",
+        "url_page": "https://www.facebook.com/100084237757841",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "N\\u01a1i nh\\u1eefng con ng h\\u1ecdc l\\u00e0 ph\\u1ee5 b\\u00e1o l\\u00e0 ch\\u00ednh - 10a4",
+        "uid_page": "100086493696937",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100086493696937",
+        "url_page": "https://www.facebook.com/100086493696937",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Vo Le Trieu Lan",
+        "uid_page": "100083156277985",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100083156277985",
+        "url_page": "https://www.facebook.com/100083156277985",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_16736237 (VoLiBear_16736237, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084099640355",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084099640355",
+        "url_page": "https://www.facebook.com/100084099640355",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_2808739147 (VoLiBear_2808739147, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084175211481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084175211481",
+        "url_page": "https://www.facebook.com/100084175211481",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name_groups": "cc",
+    "data": [
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Shin Sad (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084352202225",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084352202225",
+        "url_page": "https://www.facebook.com/100084352202225",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "BopClub88",
+        "uid_page": "61554135480481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=61554135480481",
+        "url_page": "https://www.facebook.com/61554135480481",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "My Linh (\\u0110I\\u00ean Bi\\u00ean Ph\\u1ee7)",
+        "uid_page": "100084139482816",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084139482816",
+        "url_page": "https://www.facebook.com/100084139482816",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6792915009 (VoLiBear_6792915009, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084320403722",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084320403722",
+        "url_page": "https://www.facebook.com/100084320403722",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9781421192 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084216818856",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084216818856",
+        "url_page": "https://www.facebook.com/100084216818856",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "My Duyen",
+        "uid_page": "100084015438543",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084015438543",
+        "url_page": "https://www.facebook.com/100084015438543",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Anh Ngoc (Bu\\u00f4n Ma Thu\\u1ed9t, \\u0110\\u1eafk L\\u1eafk)",
+        "uid_page": "100084237757841",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084237757841",
+        "url_page": "https://www.facebook.com/100084237757841",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "N\\u01a1i nh\\u1eefng con ng h\\u1ecdc l\\u00e0 ph\\u1ee5 b\\u00e1o l\\u00e0 ch\\u00ednh - 10a4",
+        "uid_page": "100086493696937",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100086493696937",
+        "url_page": "https://www.facebook.com/100086493696937",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "Vo Le Trieu Lan",
+        "uid_page": "100083156277985",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100083156277985",
+        "url_page": "https://www.facebook.com/100083156277985",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_16736237 (VoLiBear_16736237, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084099640355",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084099640355",
+        "url_page": "https://www.facebook.com/100084099640355",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;dpr=1;c_user=100082148649666;ar_debug=1;usida=eyJ2ZXIiOjEsImlkIjoiQXNxaTQ1MDNhM3E3bCIsInRpbWUiOjE3Mzc1NjgxMTZ9;xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc;wd=514x968;fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM;presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_2808739147 (VoLiBear_2808739147, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084175211481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=50%3A2vvd6zPLzyCWdA%3A2%3A1737399280%3A-1%3A6297%3A%3AAcXjdBF4J1msnK2_5Pkp_uZrTbToZlFCBcLZ98OI4Dc; fr=1wi1J33a0lWrPlZH2.AWUDd8lrqhXoFaQ3ex39pB8FTLE.BnkTlM..AAA.0.0.BnkUDM.AWWAx_ebTWM; presence=C%7B%22t3%22%3A%5B%7B%22o%22%3A0%2C%22i%22%3A%22sc.8976452209033190%22%7D%5D%2C%22utc3%22%3A1737572712303%2C%22v%22%3A1%7D; i_user=100084175211481",
+        "url_page": "https://www.facebook.com/100084175211481",
+        "status": "live"
+      }
+    ]
+  },
+  {
+    "name_groups": "pageFull",
+    "data": [
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6527306792 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083938342461",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083938342461",
+        "url_page": "https://www.facebook.com/100083938342461",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_5720211228 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083849335772",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083849335772",
+        "url_page": "https://www.facebook.com/100083849335772",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9311808903 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083899253895",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083899253895",
+        "url_page": "https://www.facebook.com/100083899253895",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9519245539 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084000799049",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084000799049",
+        "url_page": "https://www.facebook.com/100084000799049",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_4466150933 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084335463057",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084335463057",
+        "url_page": "https://www.facebook.com/100084335463057",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_3831938488 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084306454684",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084306454684",
+        "url_page": "https://www.facebook.com/100084306454684",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_4110677562 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083883774285",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083883774285",
+        "url_page": "https://www.facebook.com/100083883774285",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_8966170637 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084342992658",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084342992658",
+        "url_page": "https://www.facebook.com/100084342992658",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7736858265 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084350252270",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084350252270",
+        "url_page": "https://www.facebook.com/100084350252270",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_4226590841 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084370321185",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084370321185",
+        "url_page": "https://www.facebook.com/100084370321185",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7757433366 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083857045214",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083857045214",
+        "url_page": "https://www.facebook.com/100083857045214",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6784559353 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084281705843",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084281705843",
+        "url_page": "https://www.facebook.com/100084281705843",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7614371519 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084029777786",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084029777786",
+        "url_page": "https://www.facebook.com/100084029777786",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_1772356075 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084289145335",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084289145335",
+        "url_page": "https://www.facebook.com/100084289145335",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7405835089 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083800377697",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083800377697",
+        "url_page": "https://www.facebook.com/100083800377697",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_891799300 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083820807096",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083820807096",
+        "url_page": "https://www.facebook.com/100083820807096",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7571436815 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083999749080",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083999749080",
+        "url_page": "https://www.facebook.com/100083999749080",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_169693589 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083842855973",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083842855973",
+        "url_page": "https://www.facebook.com/100083842855973",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7858501651 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084135913012",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084135913012",
+        "url_page": "https://www.facebook.com/100084135913012",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_3928953221 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084279875927",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084279875927",
+        "url_page": "https://www.facebook.com/100084279875927",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_1669445217 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083963240747",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083963240747",
+        "url_page": "https://www.facebook.com/100083963240747",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6620624808 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083948721669",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083948721669",
+        "url_page": "https://www.facebook.com/100083948721669",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_1853979843 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084284585604",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084284585604",
+        "url_page": "https://www.facebook.com/100084284585604",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9526485219 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084361891755",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084361891755",
+        "url_page": "https://www.facebook.com/100084361891755",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_2747507842 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083988109930",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083988109930",
+        "url_page": "https://www.facebook.com/100083988109930",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_8396034639 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084222128678",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084222128678",
+        "url_page": "https://www.facebook.com/100084222128678",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_5089127116 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083832776636",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083832776636",
+        "url_page": "https://www.facebook.com/100083832776636",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_7441126579 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083981810038",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083981810038",
+        "url_page": "https://www.facebook.com/100083981810038",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_3739165689 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084118453150",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084118453150",
+        "url_page": "https://www.facebook.com/100084118453150",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_4578993634 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084378510944",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084378510944",
+        "url_page": "https://www.facebook.com/100084378510944",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_8587088357 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083999599326",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083999599326",
+        "url_page": "https://www.facebook.com/100083999599326",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_4621465585 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100083995099259",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083995099259",
+        "url_page": "https://www.facebook.com/100083995099259",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "Shinsad",
+        "uid_page": "100085211933677",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100085211933677",
+        "url_page": "https://www.facebook.com/100085211933677",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "GIa Linh",
+        "uid_page": "61550753979633",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=61550753979633",
+        "url_page": "https://www.facebook.com/61550753979633",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "Shin Sad (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084352202225",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084352202225",
+        "url_page": "https://www.facebook.com/100084352202225",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "BopClub88",
+        "uid_page": "61554135480481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=61554135480481",
+        "url_page": "https://www.facebook.com/61554135480481",
+        "status": "live",
+        "proxy": "ip:port:username:password"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "My Linh (\\u0110I\\u00ean Bi\\u00ean Ph\\u1ee7)",
+        "uid_page": "100084139482816",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084139482816",
+        "url_page": "https://www.facebook.com/100084139482816",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_6792915009 (VoLiBear_6792915009, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084320403722",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084320403722",
+        "url_page": "https://www.facebook.com/100084320403722",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_9781421192 (H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084216818856",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084216818856",
+        "url_page": "https://www.facebook.com/100084216818856",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "My Duyen",
+        "uid_page": "100084015438543",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084015438543",
+        "url_page": "https://www.facebook.com/100084015438543",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "Anh Ngoc (Bu\\u00f4n Ma Thu\\u1ed9t, \\u0110\\u1eafk L\\u1eafk)",
+        "uid_page": "100084237757841",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084237757841",
+        "url_page": "https://www.facebook.com/100084237757841",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "N\\u01a1i nh\\u1eefng con ng h\\u1ecdc l\\u00e0 ph\\u1ee5 b\\u00e1o l\\u00e0 ch\\u00ednh - 10a4",
+        "uid_page": "100086493696937",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100086493696937",
+        "url_page": "https://www.facebook.com/100086493696937",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "Vo Le Trieu Lan",
+        "uid_page": "100083156277985",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100083156277985",
+        "url_page": "https://www.facebook.com/100083156277985",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_16736237 (VoLiBear_16736237, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084099640355",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084099640355",
+        "url_page": "https://www.facebook.com/100084099640355",
+        "status": "live"
+      },
+      {
+        "name_account": "Võ Lê Triều Lân",
+        "uid_account": "100010044456458",
+        "cookie_account": "sb=Hje3ZnP8ie9dOiOh-zGlizbM;datr=Hze3ZnLNj8J_H2keHZULqVKi;ps_l=1;ps_n=1;ar_debug=1;wd=1920x967;usida=eyJ2ZXIiOjEsImlkIjoiQXNxcTMybG1sanQ1dCIsInRpbWUiOjE3Mzc5Mzk5ODF9;c_user=100082148649666;xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297;fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0;presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D;",
+        "name_page": "VoLiBear_2808739147 (VoLiBear_2808739147, H\\u00e0 Ti\\u00ean, Ki\\u00ean Giang)",
+        "uid_page": "100084175211481",
+        "cookie_page": "sb=Hje3ZnP8ie9dOiOh-zGlizbM; datr=Hze3ZnLNj8J_H2keHZULqVKi; c_user=100082148649666; xs=9%3A1UzhYUXyLi1xBg%3A2%3A1737939985%3A-1%3A6297; fr=1HaawWKiw8pnmZNdW.AWUsGwqZ1o5eBybw8aFzp3_kgUA.BnlpLj..AAA.0.0.BnludO.AWVVe4uDfU0; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1737942917084%2C%22v%22%3A1%7D; i_user=100084175211481",
+        "url_page": "https://www.facebook.com/100084175211481",
+        "status": "live"
+      }
+    ]
+  }
+]

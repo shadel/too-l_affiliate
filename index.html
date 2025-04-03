@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VLTL DATA Dashboard</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+
+      body {
+        background-color: #0b1015;
+        color: #c9d1d9;
+      }
+
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+
+      /* Header */
+      .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 24px;
+        background: #0d1117;
+        border-bottom: 1px solid #21262d;
+      }
+
+      .top-bar h1 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #e6edf3;
+      }
+
+      .top-bar-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .profile-icon {
+        border-radius: 50%;
+      }
+
+      /* Search Section */
+      .search-section {
+        padding: 0 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .search-section-interact {
+        position: relative; /* Tạo bối cảnh cho label */
+        flex: 1; /* Chiếm 50% không gian ngang */
+        max-width: 35%; /* Giới hạn tối đa chiều rộng */
+        padding: 16px; /* Khoảng cách bên trong */
+        background: #0d1117; /* Màu nền */
+        border: 1px solid #30363d; /* Viền */
+        border-radius: 6px; /* Bo góc */
+        height: 100%; /* Chiều cao đầy đủ */
+        box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến chiều cao */
+        margin-top: 24px; /* Khoảng cách phía trên */
+      }
+      .section-label {
+        position: absolute;
+        top: -12px; /* Đẩy label ra ngoài viền trên */
+        left: 16px; /* Khoảng cách từ viền trái */
+        background-color: #0d1117; /* Màu nền đồng nhất với phần bên trong */
+        padding: 0 8px; /* Khoảng cách bên trong của label */
+        font-size: 14px;
+        color: #8b949e; /* Màu chữ nhấn nhá */
+        font-weight: bold;
+        pointer-events: none; /* Không cho phép tương tác với label */
+        z-index: 1; /* Đảm bảo label luôn nằm trên các phần tử khác */
+      }
+
+      .keywords-container {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 12px;
+      }
+
+      .keywords-input {
+        width: 100%;
+        min-height: 120px;
+        background: transparent;
+        border: none;
+        color: #e6edf3;
+        font-size: 14px;
+        resize: none;
+        outline: none;
+      }
+
+      .keywords-input::placeholder {
+        color: #8b949e;
+      }
+
+      /* Controls Row */
+      .controls-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        margin-top: 16px; /* Khoảng cách phía trên */
+      }
+      .controls-row-interact {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        flex-direction: column;
+      }
+
+      .account-selector {
+        min-width: 280px;
+      }
+
+      .select-input {
+        width: 100%;
+        padding: 8px 12px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        color: #e6edf3;
+        font-size: 14px;
+      }
+
+      .search-params {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+      .search-params-interact {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+      }
+
+      .checkbox-group {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+      }
+      .checkbox-group label {
+        color: #8b949e;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      .checkbox-group span.note {
+        color: #f73434;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      .param-group-interact {
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        margin-left: 16px; /* Tạo khoảng cách từ cạnh trái */
+      }
+
+      .param-group-interact label {
+        color: #8b949e;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+      .link {
+        color: #2ea043; /* Màu xanh lá */
+        text-decoration: underline; /* Gạch chân */
+        cursor: pointer; /* Con trỏ dạng tay */
+      }
+
+      .link:hover {
+        color: #238636; /* Màu đậm hơn khi hover */
+        text-decoration: none; /* Bỏ gạch chân khi hover */
+      }
+      .param-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .param-group label {
+        color: #8b949e;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      .number-input-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .number-input {
+        width: 70px;
+        padding: 6px 8px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        color: #e6edf3;
+        text-align: center;
+      }
+
+      .unit {
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      .action-buttons {
+        display: flex;
+        gap: 8px;
+      }
+      .btn-select-content {
+        padding: 6px 16px;
+        background: #234286;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .btn-start {
+        padding: 6px 16px;
+        background: #238636;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .btn-stop {
+        padding: 6px 16px;
+        background: #21262d;
+        color: #e6edf3;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .btn-start:disabled,
+      .btn-start.disabled {
+          background-color: #6c757d; /* Màu xám nhạt */
+          color: #e6edf3; /* Màu chữ nhạt */
+          cursor: not-allowed; /* Con trỏ không cho phép nhấn */
+          opacity: 0.6; /* Làm mờ nút */
+      }
+
+      /* Results Table */
+      .results-section {
+        margin: 0 24px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        overflow: auto;
+        max-height: 850px; /* Giới hạn chiều cao của bảng */
+      }
+
+      .results-section-modal-content {
+        margin-top: 25px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        overflow: auto;
+        max-height: 850px; /* Giới hạn chiều cao của bảng */
+      }
+
+      .results-section-interact {
+        flex: 1; /* Chiếm 50% không gian ngang */
+        max-width: 65%; /* Giới hạn tối đa chiều rộng */
+        padding: 16px; /* Khoảng cách bên trong */
+        background: #0d1117; /* Màu nền */
+        border: 1px solid #30363d; /* Viền */
+        border-radius: 6px; /* Bo góc */
+        height: 850px; /* Đảm bảo toàn bộ chiều cao */
+        box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến chiều cao */
+        margin-top: 24px; /* Khoảng cách phía trên */
+        position: relative; /* Tạo bối cảnh cho label */
+      }
+
+      .table-container-spam-stt-groups-page {
+        max-height: 850px; /* Giới hạn chiều cao */
+        overflow: auto; /* Thanh cuộn tự động khi nội dung vượt quá chiều cao */
+      }
+
+      .results-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .results-table th {
+        padding: 12px 16px;
+        background: #161b22;
+        color: #8b949e;
+        font-weight: normal;
+        text-align: left;
+        border-bottom: 1px solid #21262d;
+      }
+
+      .results-table td {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+        color: #e6edf3;
+      }
+
+      .checkbox-col {
+        width: 40px;
+      }
+
+      .url-cell {
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      /* Footer */
+      .footer-actions {
+        padding: 16px 24px;
+        display: flex;
+        gap: 12px;
+      }
+
+      .footer-actions button {
+        padding: 6px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .btn-danger {
+        background: transparent;
+        color: #f85149;
+        border: 1px solid #f85149;
+      }
+
+      .btn-secondary {
+        background: #21262d;
+        color: #e6edf3;
+        border: 1px solid #30363d;
+      }
+      /* Sidebar Styles */
+      .sidebar {
+        width: 250px;
+        background-color: #0b1015;
+        border-right: 1px solid #30363d;
+      }
+
+      .logo-container {
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        height: 150px; /* Thay vì cố định chiều cao */
+        margin-bottom: 20px; /* Thêm khoảng cách dưới logo */
+      }
+
+      .logo {
+        width: auto; /* Giảm chiều rộng để logo nhỏ hơn */
+        max-width: 200px; /* Tối đa chiều rộng của logo */
+        height: auto; /* Đảm bảo tỉ lệ khung hình không bị biến dạng */
+      }
+
+      .nav-section {
+        margin-top: 20px; /* Đảm bảo có khoảng cách giữa các mục menu và logo */
+      }
+
+      .logo-text {
+        color: #f0f6fc;
+        font-weight: 600;
+      }
+
+      .nav-section {
+        margin-top: 8px;
+      }
+
+      .nav-header {
+        padding: 8px 16px;
+        color: #8b949e;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .nav-item {
+        padding: 8px 16px;
+        color: #c9d1d9;
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+      }
+
+      .nav-item:hover {
+        background-color: #161b22;
+      }
+
+      .nav-item.active {
+        background-color: #1a2432;
+        border-left: 2px solid #2f81f7;
+      }
+
+      /* Content Container Styles */
+      .content-container {
+        flex: 1; /* Chiếm toàn bộ không gian còn lại */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden; /* Đảm bảo không bị tràn */
+      }
+
+      /* Main Content Styles */
+      .main-content {
+        flex: 1; /* Đảm bảo nội dung full chiều cao */
+        display: none; /* Sử dụng flex để chia layout */
+        gap: 16px; /* Khoảng cách giữa các phần */
+        padding: 16px; /* Khoảng cách bên trong */
+        height: 100%; /* Đảm bảo toàn bộ chiều cao */
+        overflow: hidden; /* Ẩn cuộn cho toàn bộ main-content */
+      }
+
+      .main-content.active {
+        display: block; /* Hiển thị khi được kích hoạt */
+      }
+      .main-content-spamgroups-header {
+        display: flex; /* Sử dụng flex để chia bố cục ngang */
+        gap: 16px; /* Khoảng cách giữa hai phần */
+        flex-wrap: nowrap; /* Không cho các phần xuống hàng */
+        height: 100%; /* Kéo dài đầy đủ chiều cao */
+      }
+
+      .top-bar {
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #30363d;
+      }
+
+      .action-bar {
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .btn-group {
+        display: flex;
+        gap: 8px;
+      }
+
+      .btn-primary {
+        background-color: #2f81f7;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .btn-secondary {
+        background-color: transparent;
+        color: #c9d1d9;
+        border: 1px solid #30363d;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .btn-danger {
+        background-color: transparent;
+        color: #f44336; /* Màu đỏ cho nút xóa */
+        border: 1px solid #f44336; /* Viền đỏ */
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .btn-danger:hover {
+        background-color: #f44336; /* Nền đỏ khi hover */
+        color: #ffffff; /* Chữ trắng khi hover */
+      }
+
+      .btn-danger:focus {
+        outline: none; /* Xóa outline khi nhấn */
+        box-shadow: 0 0 0 2px rgba(244, 67, 54, 0.4); /* Thêm bóng mờ khi nút được focus */
+      }
+
+      .stats {
+        display: flex;
+        gap: 16px;
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      .stats span {
+        color: #c9d1d9;
+      }
+
+      .stats .die {
+        color: #f85149;
+      }
+      .stats_page {
+        display: flex;
+        gap: 16px;
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      .stats_page span {
+        color: #c9d1d9;
+      }
+
+      .stats_page .die {
+        color: #f85149;
+      }
+
+      /* Additional CSS for specific styling */
+      .table-container {
+        max-height: 800px; /* Giới hạn chiều cao tối đa */
+        overflow-y: auto; /* Hiển thị thanh cuộn dọc khi nội dung vượt quá chiều cao */
+        overflow-x: hidden; /* Ẩn thanh cuộn ngang nếu không cần thiết */
+        background-color: #161b22; /* Màu nền */
+        border: 1px solid #30363d; /* Viền */
+        border-radius: 6px; /* Bo góc */
+        padding: 8px; /* Khoảng cách bên trong */
+        box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến kích thước */
+      }
+
+      .table-container table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .table-container th {
+        background: #161b22;
+        padding: 12px;
+        text-align: left;
+        color: #8b949e;
+        font-weight: normal;
+        border-bottom: 1px solid #30363d;
+      }
+
+      .table-container td {
+        padding: 12px;
+        border-bottom: 1px solid #30363d;
+        color: #c9d1d9;
+      }
+
+      .status-live {
+        color: #3fb950;
+      }
+
+      .cookie-cell {
+        max-width: 400px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .table-footer {
+        padding: 12px;
+        color: #8b949e;
+        font-size: 14px;
+        border-top: 1px solid #30363d;
+      }
+
+      /* Custom Checkbox */
+      /* Custom Checkbox */
+      .checkbox {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkbox:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .checkboxscan {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkboxscan:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .checkboxscanpage {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkboxscanpage:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .checkboxcontent {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkboxcontent:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .checkboxmanagerpage {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkboxmanagerpage:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .scancontent {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .scancontent:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+      .checkboxspamgroups {
+        width: 16px;
+        height: 16px;
+        background-color: #21262d;
+        border: 1px solid #30363d;
+        border-radius: 4px;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      .checkboxspamgroups:checked {
+        background-color: #2f81f7;
+        border-color: #2f81f7;
+      }
+
+      /* Thêm CSS cho Modal */
+      .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+
+      .modal-overlay.show {
+        display: flex;
+      }
+
+      .modal {
+        background-color: #0d1117;
+        border-radius: 8px;
+        border: 1px solid #30363d;
+        width: 90%;
+        max-width: 1000px;
+        color: #c9d1d9;
+        position: relative;
+      }
+
+      .modal-header {
+        padding: 16px;
+        border-bottom: 1px solid #30363d;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .modal-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .close-button {
+        background: none;
+        border: none;
+        color: #8b949e;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      .modal-body {
+        padding: 16px;
+      }
+
+      .input-group {
+        margin-bottom: 16px;
+      }
+
+      .input-label {
+        display: block;
+        margin-bottom: 8px;
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      .text-area {
+        width: 100%;
+        height: 150px;
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        color: #c9d1d9;
+        padding: 12px;
+        font-size: 14px;
+        resize: vertical;
+      }
+
+      .text-area::placeholder {
+        color: #8b949e;
+      }
+
+      .format-example {
+        margin-top: 8px;
+        color: #8b949e;
+        font-size: 13px;
+      }
+
+      .separator {
+        margin: 20px 0;
+        border-top: 1px solid #30363d;
+      }
+
+      .modal-footer {
+        padding: 16px;
+        border-top: 1px solid #30363d;
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+
+      .toggle-group {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      .toggle-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .radio {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #30363d;
+        border-radius: 50%;
+        appearance: none;
+        background-color: #161b22;
+        cursor: pointer;
+      }
+
+      .radio:checked {
+        border: 4px solid #2f81f7;
+      }
+
+      .info-text {
+        color: #388bfd;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+      .group-select {
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        color: #c9d1d9;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+        min-width: 200px;
+      }
+
+      .text-input {
+        width: 100%;
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        color: #c9d1d9;
+        padding: 8px 12px;
+        font-size: 14px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        margin-top: 8px;
+        background-color: #161b22;
+        min-width: 160px;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .dropdown-content.show {
+        display: block;
+      }
+
+      .dropdown-item {
+        color: #c9d1d9;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
+
+      .dropdown-item:hover {
+        background-color: #1a2432;
+      }
+
+      /* Modal Styles */
+      .support-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+      }
+
+      .support-modal.show {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .support-modal-content {
+        background-color: #0d1117;
+        padding: 24px;
+        border-radius: 8px;
+        border: 1px solid #30363d;
+        width: 90%;
+        max-width: 400px;
+      }
+
+      .support-modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+
+      .support-modal-title {
+        color: #c9d1d9;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .support-modal-close {
+        background: none;
+        border: none;
+        color: #8b949e;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      .support-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .support-link {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #2f81f7;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 6px;
+        transition: background-color 0.2s;
+      }
+
+      .support-link:hover {
+        background-color: #1a2432;
+      }
+
+      .modal-overlay#keyValidationModal {
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+      }
+
+      .modal-overlay#keyValidationModal .modal {
+        width: 90%;
+        max-width: 400px;
+      }
+
+      /* Disable page interaction when modal is active */
+      .disable-interactions {
+        pointer-events: none;
+        user-select: none;
+        opacity: 0.5;
+      }
+      #keyValidationModal {
+        z-index: 1050; /* Giá trị này có thể điều chỉnh để modal này luôn trên cùng */
+      }
+
+      #addAccountModal {
+        z-index: 1040; /* Modal này sẽ thấp hơn modal trên */
+      }
+      .profile-img {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .icon-img {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .content-cell {
+          cursor: pointer;
+          transition: background-color 0.2s;
+      }
+
+      .content-cell:hover {
+          background-color: #f5f5f5;
+      }
+
+      .input-group label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: bold;
+      }
+
+      .text-input {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          font-size: 14px;
+      }
+
+      textarea.text-input {
+          resize: vertical;
+          min-height: 80px;
+      }
+      /* Tab Header */
+      .tab-header {
+        display: flex;
+        border-bottom: 1px solid #30363d;
+      }
+
+      .tab-item {
+        flex: 1;
+        padding: 12px 16px;
+        text-align: center;
+        background: #161b22;
+        color: #c9d1d9;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.2s;
+      }
+
+      .tab-item.active {
+        background: #1a2432;
+        color: #ffffff;
+        border-bottom: 2px solid #2f81f7;
+      }
+
+      .tab-item:hover {
+        background: #1a2432;
+      }
+
+      /* Tab Content */
+      .tab-content {
+        padding: 16px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+      }
+
+      .tab-panel {
+        display: none;
+      }
+
+      .tab-panel.active {
+        display: block;
+      }
+      /* Rectangle Box Styles */
+      .rectangle-box {
+        padding: 16px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        margin-bottom: 16px; /* Khoảng cách giữa các ô */
+      }
+
+      .rectangle-box.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+
+      /* Radio Button Group */
+      /* Radio Button Group */
+      .param-group {
+        display: flex;
+        align-items: center;
+        gap: 8px; /* Khoảng cách giữa radio button và label */
+        margin-bottom: 4px; /* Giảm khoảng cách giữa radio button và nội dung bên dưới */
+      }
+
+      .param-group label {
+        color: #c9d1d9;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .param-group input[type="radio"] {
+        cursor: pointer;
+      }
+
+      /* Input and Select Styles */
+      .input-label {
+        display: block;
+        color: #8b949e;
+        font-size: 14px;
+      }
+
+      .text-input,
+      .select-input,
+      .number-input {
+        width: 100%;
+        padding: 8px 12px;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        color: #e6edf3;
+        font-size: 14px;
+        margin-bottom: 6px; /* Giảm khoảng cách dưới input/select */
+      }
+      .context-menu {
+        display: none;
+        position: absolute;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        z-index: 1000;
+        padding: 8px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .context-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .context-menu li {
+        padding: 8px 16px;
+        color: #c9d1d9;
+        cursor: pointer;
+      }
+
+      .context-menu li:hover {
+        background: #30363d;
+      }
+      .icon-img {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+      }
+
+      .proxy-cell {
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .effect-toggle {
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        color: #c9d1d9;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .effect-toggle .toggle-icon {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2f81f7;
+      }
+
+      .treeview {
+        list-style-type: none;
+        padding-left: 20px;
+      }
+
+      .treeview li {
+        margin-bottom: 8px;
+      }
+
+      .treeview label {
+        cursor: pointer;
+        color: #8b949e;
+      }
+      .progress-bar {
+        height: 4px;
+        background-color: #4CAF50;
+        width: 0;
+        transition: width 0.3s;
+        margin-top: 4px;
+      }
+      .form-control {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        resize: vertical;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo-container">
+          <img src="logo/logo_transparent.png" alt="Logo" class="logo" />
+        </div>
+
+        <div class="nav-section">
+          <div class="nav-header">Quản lí tài khoản</div>
+          <a href="#" class="nav-item active" id="manageAccountsLink"
+            >Quản lý tài khoản quét</a
+          >
+          <a href="#" class="nav-item" id="managePagesLink"
+            >Quản lý cookie Page</a
+          >
+        </div>
+        <div class="nav-section">
+          <div class="nav-header">Quản lí tài khoản VIA(new)</div>
+          <a href="#" class="nav-item active" id="manageAccountsLink"
+            >Quản lý tài khoản VIA(new)</a
+          >
+          <a href="#" class="nav-item" id="managePagesLink"
+            >Quản lý cookie Page VIA(new)</a
+          >
+        </div>
+        <div class="nav-section">
+          <div class="nav-header">QUÉT DATA</div>
+          <a href="#" class="nav-item" id="scanPageLink">Quét PAGE</a>
+          <a href="#" class="nav-item" id="scanFanpageLink"
+            >Quét Fanpage theo từ khóa</a
+          >
+          <!-- Link mới -->
+          <!-- <a href="#" class="nav-item">Quét data bài viết</a> -->
+        </div>
+        <div class="nav-section">
+          <div class="nav-header">Reup Video Content</div>
+          <a href="#" class="nav-item" id="scancontent"
+            >Quét content(new)</a
+          >
+          <a href="#" class="nav-item" id="reupvideo"
+            >Reup Video(new)</a
+          >
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content-container">
+        <!-- Quản lý tài khoản quét -->
+        <div class="main-content" id="manageAccountsContent">
+          <!-- Replace your existing top-bar div with this -->
+          <div class="top-bar">
+            <h1>Quản lý tài khoản quét</h1>
+            <div style="display: flex; gap: 12px; align-items: center">
+              <!-- Settings Icon with Support Modal -->
+              <div class="dropdown">
+                <img
+                  src="logo/service.png"
+                  alt="Settings"
+                  class="profile-img"
+                  class="cursor-pointer"
+                  id="settingsIcon"
+                />
+                <div class="dropdown-content" id="supportModal">
+                  <a
+                    href="https://www.facebook.com/shinsad.copyright.97/"
+                    class="dropdown-item"
+                    ><img
+                      src="logo/facebook.png"
+                      alt="Facebook"
+                      class="icon-img"
+                    />
+                    Facebook</a
+                  >
+                  <a href="https://zalo.me/g/0916733227" class="dropdown-item"
+                    ><img
+                      src="logo/Icon_of_Zalo.svg.png"
+                      alt="Zalo"
+                      class="icon-img"
+                    />
+                    Zalo</a
+                  >
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <img
+                  src="logo/profile.png"
+                  alt="Profile"
+                  class="profile-img"
+                  style="border-radius: 50%; cursor: pointer"
+                  id="profileIcon"
+                />
+                <div class="dropdown-content" id="profileDropdown">
+                  <a href="#" class="dropdown-item" id="showkey">🔑 Key</a>
+                  <a href="#" class="dropdown-item" id="logout">🚪 Đăng xuất</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- First add this to the HTML just after the action-bar div opening tag -->
+          <div class="action-bar">
+            <div style="display: flex; gap: 16px; align-items: center">
+              <select id="manageAccountsSelect" class="group-select">
+                <option value="all">Tất cả tài khoản</option>
+              </select>
+              <div class="btn-group">
+                <button class="btn-primary">+ Thêm tài khoản</button>
+                <button class="btn-secondary" id="exportAccountsBtn">
+                  🔄 Xuất tài khoản
+                </button>
+                <!-- Nút Xóa mới -->
+                <button class="btn-danger" id="deleteAccountsBtn">
+                  🗑️ Xóa tài khoản
+                </button>
+              </div>
+            </div>
+            <div class="stats">
+              <div>Tổng số: <span>0</span></div>
+              <div>Live: <span>0</span></div>
+              <div>Die: <span class="die">0</span></div>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    <input
+                      type="checkbox"
+                      class="checkbox"
+                      id="selectAllCheckbox"
+                    />
+                  </th>
+                  <th>UID</th>
+                  <th>Trạng thái</th>
+                  <th>Password</th>
+                  <th>2FA</th>
+                  <th>Cookie</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" class="checkbox" /></td>
+                  <td>100010044456458</td>
+                  <td><span class="status-live">Live</span></td>
+                  <td>••••••••</td>
+                  <td>5W51E877BNINGUBLMCZTY5OYTEOCQQ2</td>
+                  <td class="cookie-cell">
+                    c_user=100010044456458;xs=48:vPXhb2Z5dA:2:1673891577:-1:-1;fr=0DAfwQLNasdK5QiFd.AWVVbySjrUZ5RgxR_7RS-7m4UiQ.BkTy25.Ic.AAA.0.0.BkTy25.AWX0000kkkk
+                  </td>
+                </tr>
+                <!-- Các dòng khác có thể thêm vào đây -->
+              </tbody>
+            </table>
+            <div class="table-footer">Showing 1 to 1 of 1 entries</div>
+          </div>
+        </div>
+        <!-- Quản lý Page quét -->
+        <div class="main-content" id="managePagesContent">
+          <!-- Replace your existing top-bar div with this -->
+          <div class="top-bar">
+            <h1>Quản lý Cookie Page</h1>
+            <div style="display: flex; gap: 12px; align-items: center">
+              <!-- Settings Icon with Support Modal -->
+              <div class="dropdown">
+                <img
+                  src="logo/service.png"
+                  alt="Settings"
+                  class="profile-img"
+                  class="cursor-pointer"
+                  id="settingsIcon"
+                />
+                <div class="dropdown-content" id="supportModal">
+                  <a
+                    href="https://www.facebook.com/shinsad.copyright.97/"
+                    class="dropdown-item"
+                    ><img
+                      src="logo/facebook.png"
+                      alt="Facebook"
+                      class="icon-img"
+                    />
+                    Facebook</a
+                  >
+                  <a href="https://zalo.me/g/0916733227" class="dropdown-item"
+                    ><img
+                      src="logo/Icon_of_Zalo.svg.png"
+                      alt="Zalo"
+                      class="icon-img"
+                    />
+                    Zalo</a
+                  >
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <img
+                  src="logo/profile.png"
+                  alt="Profile"
+                  class="profile-img"
+                  style="border-radius: 50%; cursor: pointer"
+                  id="profileIcon"
+                />
+                <div class="dropdown-content" id="profileDropdown">
+                  <a href="#" class="dropdown-item" id="showkey">🔑 Key</a>
+                  <a href="#" class="dropdown-item" id="logout">🚪 Đăng xuất</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- First add this to the HTML just after the action-bar div opening tag -->
+          <div class="action-bar">
+            <div style="display: flex; gap: 16px; align-items: center">
+              <select id="managePagesSelect" class="group-select">
+                <option value="all">Tất cả tài khoản</option>
+              </select>
+              <div class="btn-group">
+                <button class="btn-secondary" id="exportdatapagesBtn">
+                  🔄 Xuất tài khoản
+                </button>
+                <!-- Nút Xóa mới -->
+                <button class="btn-danger" id="deletedataPagesBtn">
+                  🗑️ Xóa tài khoản
+                </button>
+              </div>
+            </div>
+            <div class="stats">
+              <div>Tổng số: <span>0</span></div>
+              <div>Live: <span>0</span></div>
+              <div>Die: <span class="die">0</span></div>
+            </div>
+          </div>
+          
+          <!-- Thêm context menu -->
+          <div id="pageContextMenu" class="context-menu">
+            <ul>
+              <li id="addProxy"><img src="logo/proxy.png" class="icon-img">Thêm Proxy</li>
+              <li id="loginPage"><img src="logo/login.png" class="icon-img">Đăng nhập</li>
+            </ul>
+          </div>
+
+          <!-- Thêm modal proxy -->
+          <div id="proxyModal" class="modal-overlay">
+            <div class="modal">
+              <div class="modal-header">
+                <h2>Thêm Proxy</h2>
+                <button id="closeProxyModal" class="close-button">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="proxyInput">Nhập proxy (mỗi proxy một dòng):</label>
+                  <textarea 
+                    id="proxyInput" 
+                    class="form-control" 
+                    rows="10" 
+                    placeholder="host:port:username:password"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button id="saveProxy" class="btn btn-primary">Lưu</button>
+                <button id="cancelProxy" class="btn btn-secondary">Hủy</button>
+              </div>
+            </div>
+          </div>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    <input
+                      type="checkbox" 
+                      class="checkbox"
+                      id="selectAllCheckboxmanagerpage"
+                    />
+                  </th>
+                  <th>#</th>
+                  <th>Tên account</th>
+                  <th>UID account</th>
+                  <th>Cookie account</th>
+                  <th>Tên Page</th>
+                  <th>UID Page</th>
+                  <th>Cookie Page</th>
+                  <th>URL Page</th>
+                  <th>Proxy</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="results-tbody-manager-pages">
+                <tr>
+                  <td><input type="checkbox" class="checkbox" /></td>
+                  <td>100010044456458</td>
+                  <td><span class="status-live">Live</span></td>
+                  <td>••••••••</td>
+                  <td>5W51E877BNINGUBLMCZTY5OYTEOCQQ2</td>
+                  <td class="cookie-cell">
+                    c_user=100010044456458;xs=48:vPXhb2Z5dA:2:1673891577:-1:-1;fr=0DAfwQLNasdK5QiFd.AWVVbySjrUZ5RgxR_7RS-7m4UiQ.BkTy25.Ic.AAA.0.0.BkTy25.AWX0000kkkk
+                  </td>
+                </tr>
+                <!-- Các dòng khác có thể thêm vào đây -->
+              </tbody>
+            </table>
+            <div class="table-footer">Showing 1 to 1 of 1 entries</div>
+          </div>
+        </div>
+        <!-- Search Content Section -->
+        <div class="main-content" id="searchContent">
+          <!-- Header Section -->
+          <div class="top-bar">
+            <h1>Quản lý Quét và Tải Video</h1>
+            <div class="top-bar-actions">
+              <img src="/api/placeholder/24/24" alt="Settings" class="icon" />
+              <img src="/api/placeholder/32/32" alt="Profile" class="profile-icon" />
+            </div>
+          </div>
+        
+          <!-- Tab Navigation -->
+          <div class="tab-header">
+            <button class="tab-item active" id="tabScanVideo">Quét Video</button>
+            <button class="tab-item" id="tabDownloadVideo">Tải Video</button>
+          </div>
+          <div id="contextMenu" class="context-menu">
+            <ul>
+              <li id="copyLink">Copy Link</li>
+              <li id="deleteRow">Xóa</li>
+              <li id="saveLink">Lưu link video</li>
+            </ul>
+          </div>
+        
+          <!-- Tab Content -->
+          <div class="tab-content">
+            <!-- Quét Video Content -->
+            <div class="tab-panel active" id="scanVideoContent">
+              <div class="main-content-spamgroups-header">
+                <!-- Cấu hình Quét Video -->
+                <div class="search-section-interact">
+                  <label class="section-label">Cấu Hình Quét Video</label>
+                  <div class="controls-row-interact">
+                    <!-- Quét theo từ khóa -->
+                    <div class="param-group" style="margin-bottom: 16px;">
+                      <label>
+                        <input type="radio" name="scanMode" id="keywordMode" checked />
+                        Quét theo từ khóa
+                      </label>
+                    </div>
+                    <div class="rectangle-box" id="keywordBox">
+                      <label for="platformSelect" class="input-label">Chọn nền tảng:</label>
+                      <select id="platformSelect" class="select-input">
+                        <option value="youtube">YouTube</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="facebook">Facebook</option>
+                      </select>
+                      <label for="keywordInput" class="input-label">Quét theo từ khóa:</label>
+                      <input type="text" id="keywordInput" class="text-input" placeholder="Nhập từ khóa..." />
+                      <label for="keywordLimit" class="input-label">Số lượng quét:</label>
+                      <input type="number" id="keywordLimit" class="number-input" value="10" />
+                    </div>
+                
+                    <!-- Quét theo kênh -->
+                    <div class="param-group" style="margin-bottom: 16px;">
+                      <label>
+                        <input type="radio" name="scanMode" id="channelMode" />
+                        Quét theo kênh
+                      </label>
+                    </div>
+                    <div class="rectangle-box disabled" id="channelBox">
+                      <label for="platformSelectChannel" class="input-label">Chọn nền tảng:</label>
+                      <select id="platformSelectChannel" class="select-input">
+                        <option value="youtube">YouTube</option>
+                        <option value="tiktok">TikTok</option>
+                        <option value="facebook">Facebook</option>
+                      </select>
+                      <label for="channelInput" class="input-label">Quét theo kênh:</label>
+                      <input type="text" id="channelInput" class="text-input" placeholder="Nhập URL hoặc ID kênh..." />
+                      <label for="keywordLimit" class="input-label">Số lượng quét:</label>
+                      <input type="number" id="keywordLimitChannel" class="number-input" value="10" />
+                    </div>
+                
+                    <div class="param-group" style="margin-top: 16px;">
+                      <label for="saveLocation" class="input-label">Chọn nơi lưu link:</label>
+                      <input type="text" id="saveLocation" class="text-input" placeholder="Nhập đường dẫn lưu..." readonly />
+                      <button id="browseFolder">📂 Chọn thư mục</button>
+                    </div>
+                    
+                    <button class="btn-start" id="startScancontentBtn">Bắt đầu Quét</button>
+                  </div>
+                </div>
+        
+                <!-- Danh sách Link -->
+                <div class="results-section-interact">
+                  
+                  <label class="section-label">Danh sách Link</label>
+                  <div class="table-container">
+                    <table class="results-table">
+                      <thead>
+                        <tr>
+                          <th>
+                            <input
+                              type="checkbox"
+                              class="checkbox"
+                              id="Checkbox-scan-content-all"
+                            />
+                          </th>
+                          <th>#</th>
+                          <th>Link Video</th>
+                          <th>Tiêu đề</th>
+                          <th>Lượt xem/cảm xúc</th>
+                          <th>Người đăng</th>
+                          <th>Ngày tạo</th>
+                        </tr>
+                      </thead>
+                      <tbody id="linkListTbody">
+                        <!-- Danh sách link sẽ được thêm vào đây -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Tải Video Content -->
+            <div class="tab-panel" id="downloadVideoContent">
+              <div class="main-content-spamgroups-header">
+                <!-- Cấu hình Tải Video -->
+                <div class="search-section-interact">
+                  <label class="section-label">Cấu Hình Tải Video</label>
+                  <div class="controls-row-interact">
+                    <!-- Số luồng chạy đồng thời -->
+                    <div class="param-group" style="margin-bottom: 16px;">
+                      <label>Số luồng chạy đồng thời:</label>
+                      <div class="number-input-group">
+                        <input type="number" id="downloadThreads" class="number-input" value="5" />
+                        <span class="unit">luồng</span>
+                      </div>
+                    </div>
+            
+                    <!-- Tổng số link video -->
+                    <div class="param-group" style="margin-bottom: 16px;">
+                      <label>Tổng số link video:</label>
+                      <span id="totalVideoLinks">0</span>
+                    </div>
+            
+                    <!-- Button chọn link video -->
+                    <div class="param-group" style="margin-bottom: 16px;">
+                      <button class="btn-start" id="selectVideoLinksBtn">Chọn Link Video</button>
+                    </div>
+            
+                    <!-- Chọn đường dẫn lưu file -->
+                    <div class="param-group" style="margin-top: 16px;">
+                      <label for="saveLocationDownload" class="input-label">Chọn nơi lưu file:</label>
+                      <input type="text" id="saveLocationDownload" class="text-input" placeholder="Nhập đường dẫn lưu..." readonly />
+                      <button id="browseFolderDownload">📂 Chọn thư mục</button>
+                    </div>
+            
+                    <!-- Button bắt đầu tải -->
+                    <button class="btn-start" id="startDownloadBtn">Bắt đầu Tải</button>
+                  </div>
+                </div>
+            
+                <!-- Danh sách Video -->
+                <div class="results-section-interact">
+                  <label class="section-label">Danh sách Video Tải</label>
+                  <div class="table-container">
+                    <table class="results-table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Link Video</th>
+                          <th>Tiêu đề</th>
+                          <th>Trạng thái</th>
+                          <th>Đường dẫn lưu</th>
+                        </tr>
+                      </thead>
+                      <tbody id="videoDownloadListTbody">
+                        <!-- Danh sách video sẽ được thêm vào đây -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content" id="reupVideoContent">
+          <!-- Header Section -->
+          <div class="top-bar">
+            <h1>Reup Video</h1>
+            <div class="top-bar-actions">
+              <img src="/api/placeholder/24/24" alt="Settings" class="icon" />
+              <img src="/api/placeholder/32/32" alt="Profile" class="profile-icon" />
+            </div>
+          </div>
+        
+          <div class="main-content-spamgroups-header">
+            <!-- Hiệu ứng chỉnh sửa -->
+            <div class="search-section-interact">
+              <label class="section-label">Hiệu Ứng Chỉnh Sửa</label>
+              <div class="controls-row-interact">
+                <!-- Cấu hình lưu video -->
+                <div class="param-group">
+                  <label for="saveLocationReup" class="input-label">Chọn nơi lưu video:</label>
+                  <input type="text" id="saveLocationReup" class="text-input" placeholder="Nhập đường dẫn lưu..." readonly />
+                  <button id="browseFolderReup">📂 Chọn thư mục</button>
+                </div>
+        
+                <!-- Số luồng chạy đồng thời -->
+                <div class="param-group">
+                  <label>Số luồng chạy đồng thời:</label>
+                  <div class="number-input-group">
+                    <input type="number" id="reupThreads" class="number-input" value="5" />
+                    <span class="unit">luồng</span>
+                  </div>
+                </div>
+        
+                <!-- Chọn video chỉnh sửa -->
+                <div class="rectangle-box">
+                  <label class="input-label">Chọn Video:</label>
+                  <button id="videoInput">📂 Chọn Video</button>
+                </div>
+        
+                <!-- Nút bắt đầu -->
+                <div class="param-group">
+                  <button class="btn-start" id="startReupBtn">Bắt đầu</button>
+                </div>
+        
+                <div class="rectangle-box">
+                  <label class="input-label">Hiệu ứng:</label>
+                  <div class="param-group">
+                    <!-- Nút Thêm Intro -->
+                    <div class="effect-toggle" id="introToggle">
+                      <span class="toggle-icon">+</span> Thêm Intro
+                    </div>
+                
+                    <!-- Danh sách hiệu ứng hiển thị bên dưới -->
+                    <ul id="introTree" class="treeview" style="display: none; margin-left: 24px; margin-top: 8px;">
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="slide_in_left" />
+                          Hiệu ứng trượt từ trái vào
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="slide_in_right" />
+                          Hiệu ứng trượt từ phải vào
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="fade_in" />
+                          Hiệu ứng mờ dần xuất hiện
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="slide_in_top" />
+                          Hiệu ứng trượt từ trên xuống
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="slide_in_bottom" />
+                          Hiệu ứng trượt từ dưới lên
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="blur_in" />
+                          Hiệu ứng làm mờ dần xuất hiện
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="split_screen" />
+                          Hiệu ứng chia đôi màn hình
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="blink_in" />
+                          Hiệu ứng nhấp nháy xuất hiện
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="flash_in" />
+                          Hiệu ứng lóe sáng xuất hiện
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="burst_in" />
+                          Hiệu ứng bùng nổ xuất hiện
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="flicker_in" />
+                          Hiệu ứng nhấp nháy như đèn neon
+                        </label>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" class="checkbox" value="glitch_in_quick" />
+                          Hiệu ứng glitch nhanh
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Danh sách Video -->
+            <div class="results-section-interact">
+              <label class="section-label">Danh Sách Video</label>
+              <div class="table-container">
+                <table class="results-table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Đường dẫn Video</th>
+                      <th>Trạng thái</th>
+                    </tr>
+                  </thead>
+                  <tbody id="reupVideoListTbody">
+                    <!-- Danh sách video sẽ được thêm vào đây -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="main-content" id="spamsttgroupsPages">
+          <!-- Header Section -->
+          <div class="top-bar">
+            <h1>Spam đăng bài lên nhóm bằng Page</h1>
+            <div class="top-bar-actions">
+              <img src="/api/placeholder/24/24" alt="Settings" class="icon" />
+              <img
+                src="/api/placeholder/32/32"
+                alt="Profile"
+                class="profile-icon"
+              />
+            </div>
+          </div>
+          <div class="controls-row">
+            <div class="search-params">
+              <div class="action-buttons">
+                <button class="btn-select-content" id="btn-select-content">
+                  Select content
+                </button>
+              </div>
+              <div class="stats" id="content-stats">
+                <div>Tổng nọi dung chọn đăng: <span>0</span></div>
+              </div>
+            </div>
+            <div class="search-params">
+              <div class="account-selector">
+                <select class="select-input" id="scanGroupsSelectspamgroups">
+                  <option value="">Chọn danh mục Pages</option>
+                </select>
+              </div>
+              <div class="action-buttons">
+                <button class="btn-start" id="bnt-spam-stt-groups">
+                  Bắt đầu
+                </button>
+                <button class="btn-stop">Dừng</button>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-spamgroups-header">
+            <!-- Search Controls Section -->
+
+            <div class="search-section-interact">
+              <label class="section-label">Cấu hình đăng bài vào nhóm</label>
+              <!-- Keywords Input -->
+              <!-- <div class="keywords-container">
+                <textarea
+                  id="keywords-input"
+                  class="keywords-input"
+                  placeholder="Nhập từ khóa tìm kiếm (mỗi dòng một từ khóa)..."
+                ></textarea>
+              </div> -->
+
+              <!-- Controls Row -->
+              <div class="controls-row-interact">
+                <!-- <div class="account-selector">
+                  <select class="select-input" id="scanGroupsSelect">
+                    <option value="">Chọn danh mục tài khoản quét</option>
+                  </select>
+                </div> -->
+
+                <div class="search-params-interact">
+                  <div class="param-group">
+                    <label>Số luồng chạy đồng thời</label>
+                    <div class="number-input-group">
+                      <input type="number" value="100" class="number-input" />
+                      <span class="unit">luồng</span>
+                    </div>
+                  </div>
+
+                  <div class="param-group">
+                    <label>Tất cả tài khoản đăng tối đa</label>
+                    <div class="number-input-group">
+                      <input type="number" value="2" class="number-input" />
+                      <span class="unit">/nhóm</span>
+                    </div>
+                  </div>
+
+                  <div class="param-group">
+                    <label>Chuyển tài khoản sau đăng</label>
+                    <div class="number-input-group">
+                      <input type="number" value="2" class="number-input" />
+                      <span class="unit">/nhóm</span>
+                    </div>
+                  </div>
+
+                  <div class="param-group">
+                    <label>Khoảng cách 2 lần đăng bài</label>
+                    <div class="number-input-group">
+                      <input type="number" value="2" class="number-input" />
+                      <input type="number" value="2" class="number-input" />
+                      <span class="unit">/giấy</span>
+                    </div>
+                  </div>
+
+                  <div class="param-group-interact">
+                    <label class="toggle-item">
+                      <input
+                        type="radio"
+                        name="input-type"
+                        class="radio"
+                        checked
+                      />
+                      <span>Đăng theo danh sách ID Nhóm</span>
+                      <a class="link">Vui lòng nhập UID Group tại đây!</a>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="radio" name="input-type" class="radio" />
+                      <span
+                        >Đăng vào nhóm đã tham gia của Page ( chưa update
+                        )</span
+                      >
+                    </label>
+                  </div>
+                  <div class="checkbox-group">
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Lấy bài đăng ngẫu nhiên để đăng</span>
+                      <span class="note"> (không khuyến khích dùng) </span>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Không đăng trùng nhóm</span>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Không đăng trùng bài viết giữa các Page</span>
+                      <span class="note"> (không khuyến khích dùng) </span>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Cho phép tự động tham gia nhóm chưa tham gia</span>
+                      <span class="note"> (không khuyến khích dùng) </span>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Kèm ảnh background khi đăng trạng thái</span>
+                    </label>
+                    <label class="toggle-item">
+                      <input type="checkbox" class="checkbox" />
+                      <span>Chờ upload ảnh</span>
+                      <div class="number-input-group">
+                        <input type="number" value="2" class="number-input" />
+                        <span class="unit">giấy</span>
+                        <span class="note">
+                          ( video càng dài thì càng để delay càng cao)
+                        </span>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Actions -->
+
+            <div class="results-section-interact">
+              <label class="section-label">Danh sách Page</label>
+              <div class="table-container-spam-stt-groups-page">
+                <table class="results-table">
+                  <thead>
+                    <tr>
+                      <th>
+                        <input
+                          type="checkbox"
+                          class="checkbox"
+                          id="Checkbox-spam-stt-groups"
+                        />
+                      </th>
+                      <th>#</th>
+                      <th>Name Page</th>
+                      <th>UID PAGE</th>
+                      <th>Trạng thái</th>
+                      <th>Thành Công</th>
+                    </tr>
+                  </thead>
+                  <tbody id="results-tbody-spam-groups"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content" id="Scangroupsbykeywords">
+          <!-- Header Section -->
+          <div class="top-bar">
+            <h1>Quét nhóm theo từ khóa</h1>
+            <div class="top-bar-actions">
+              <img src="/api/placeholder/24/24" alt="Settings" class="icon" />
+              <img
+                src="/api/placeholder/32/32"
+                alt="Profile"
+                class="profile-icon"
+              />
+            </div>
+          </div>
+
+          <!-- Search Controls Section -->
+          <div class="search-section">
+            <!-- Keywords Input -->
+            <div class="keywords-container">
+              <textarea
+                id="keywords-input"
+                class="keywords-input"
+                placeholder="Nhập từ khóa tìm kiếm (mỗi dòng một từ khóa)..."
+              ></textarea>
+            </div>
+
+            <!-- Controls Row -->
+            <div class="controls-row">
+              <div class="account-selector">
+                <select class="select-input" id="scanGroupsSelect">
+                  <option value="">Chọn danh mục tài khoản quét</option>
+                </select>
+              </div>
+
+              <div class="search-params">
+                <div class="param-group">
+                  <label>Số lượng nhóm tối đa:</label>
+                  <div class="number-input-group">
+                    <input type="number" value="100" class="number-input" />
+                    <span class="unit">Nhóm/từ khóa</span>
+                  </div>
+                </div>
+
+                <div class="param-group">
+                  <label>Số lượng chạy đồng thời:</label>
+                  <div class="number-input-group">
+                    <input type="number" value="2" class="number-input" />
+                    <span class="unit">/Lượng</span>
+                  </div>
+                </div>
+
+                <div class="action-buttons">
+                  <button class="btn-start" id="scanGroupsBtn">Bắt đầu</button>
+                  <button class="btn-stop">Dừng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Actions -->
+          <div class="footer-actions">
+            <button class="btn-danger" id="clearscanGroupsBtn">
+              🗑️ Xóa sạch dữ liệu
+            </button>
+            <button class="btn-secondary" id="export_scangroups">
+              📥 Xuất excel
+            </button>
+            <button class="btn-secondary">📁 Mở thư mục</button>
+          </div>
+          <!-- Results Table -->
+          <div class="results-section">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th>
+                    <input
+                      type="checkbox"
+                      class="checkbox"
+                      id="selectAllCheckboxscan"
+                    />
+                  </th>
+                  <th>#</th>
+                  <th>UID nhóm</th>
+                  <th>Từ khóa</th>
+                  <th>Tên nhóm</th>
+                  <th>Loại nhóm</th>
+                  <th>Thành viên</th>
+                  <th>Bài đăng một ngày</th>
+                  <th>URL</th>
+                </tr>
+              </thead>
+              <tbody id="results-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="main-content" id="ScanPage">
+          <!-- Header Section -->
+          <div class="top-bar">
+            <h1>Quét Data Pageprofile</h1>
+            <div class="top-bar-actions">
+              <img src="/api/placeholder/24/24" alt="Settings" class="icon" />
+              <img
+                src="/api/placeholder/32/32"
+                alt="Profile"
+                class="profile-icon"
+              />
+            </div>
+          </div>
+
+          <!-- Search Controls Section -->
+          <div class="search-section">
+            <!-- Controls Row -->
+            <div class="controls-row">
+              <div class="account-selector">
+                <select class="select-input" id="scanGroupsSelectscanPage">
+                  <option value="">Chọn danh mục tài khoản quét</option>
+                </select>
+              </div>
+
+              <div class="search-params">
+                <div class="stats_page">
+                  <div>Tổng số: <span>0</span></div>
+                  <div>Live: <span>0</span></div>
+                  <div>Die: <span class="die">0</span></div>
+                </div>
+                <div class="param-group">
+                  <label>Số lượng chạy đồng thời:</label>
+                  <div class="number-input-group">
+                    <input
+                      type="thread_scanPage"
+                      value="2"
+                      class="number-input"
+                    />
+                    <span class="unit">/Lượng</span>
+                  </div>
+                </div>
+
+                <div class="action-buttons">
+                  <button class="btn-start" id="scanPagesBtn">Bắt đầu</button>
+                  <button class="btn-stop">Dừng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Actions -->
+          <div class="footer-actions">
+            <button class="btn-danger" id="clearscanGroupsBtn_page">
+              🗑️ Xóa sạch dữ liệu
+            </button>
+            <button class="btn-secondary" id="export_scanpage">
+              📥 Xuất excel
+            </button>
+            <button class="btn-secondary">📁 Mở thư mục</button>
+            <button class="btn-primary" id="button_addpages">
+              + Thêm tài khoản
+            </button>
+          </div>
+          <!-- Results Table -->
+          <div class="results-section">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th>
+                    <input
+                      type="checkbox"
+                      class="checkbox"
+                      id="selectAllCheckboxscanpage"
+                    />
+                  </th>
+                  <th>#</th>
+                  <th>Tên account</th>
+                  <th>UID account</th>
+                  <th>Cookie account</th>
+                  <th>Tên Page</th>
+                  <th>UID Page</th>
+                  <th>Cookie Page</th>
+                  <th>URL Page</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="results-tbody_Page"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thêm Modal -->
+    <div class="modal-overlay" id="addAccountModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 class="modal-title">Thêm tài khoản</h2>
+          <button class="close-button" onclick="toggleModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group">
+            <label class="input-label">Tên nhóm tài khoản</label>
+            <input
+              type="text"
+              id="groupName"
+              class="text-input"
+              placeholder="Nhập tên nhóm tài khoản"
+              required
+            />
+          </div>
+
+          <div class="toggle-group">
+            <label class="toggle-item">
+              <input type="radio" name="input-type" class="radio" checked />
+              <span>Nhập theo định dạng</span>
+            </label>
+            <label class="toggle-item">
+              <input type="radio" name="input-type" class="radio" />
+              <span>Nhập từng phần</span>
+            </label>
+          </div>
+
+          <div class="input-group">
+            <label class="input-label"
+              >Nhập danh sách tài khoản (Mỗi dòng 1 tài khoản)</label
+            >
+            <textarea
+              class="text-area"
+              placeholder="uid|pass|2fa|cookie"
+            ></textarea>
+            <div class="format-example">
+              Định dạng: uid|password|2fa|cookie<br />
+              Ví dụ:
+              100010044456458|abc123|5W51E877BNINGUBLMCZTY5OYTEOCQQ2|c_user=100010044456458;xs=48:...
+            </div>
+            <div class="info-text">
+              ℹ️ Có thể bỏ trống 2FA hoặc Cookie nếu không có
+            </div>
+          </div>
+
+          <div class="separator"></div>
+
+          <div class="input-group">
+            <label class="input-label"
+              >Hoặc tải file txt chứa danh sách tài khoản</label
+            >
+            <button class="btn-secondary">🗂 Chọn file</button>
+            <div class="format-example">
+              File txt với mỗi dòng một tài khoản, định dạng giống như trên
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" onclick="toggleModal()">Hủy</button>
+          <button class="btn-primary" onclick="handleAddAccounts()">
+            Thêm tài khoản
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Thêm Modal -->
+    <div class="modal-overlay" id="select-content">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 class="modal-title">Select content</h2>
+          <button class="close-button" id="close-select-content">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="controls-row">
+            <div class="account-selector">
+              <select class="select-input" id="contentselect">
+                <option value="">Chọn danh mục tài khoản quét</option>
+              </select>
+            </div>
+            <div class="search-params">
+              <div class="action-buttons">
+                <button class="btn-start" id="save-chosse-content">
+                  Save lựa chọn
+                </button>
+                <button
+                  class="btn-start"
+                  id="save-chosse-content-or-groups-content"
+                  style="display: none"
+                >
+                  Save content và groups content
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="results-section-modal-content">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th>
+                    <input
+                      type="checkbox"
+                      class="checkbox"
+                      id="selectAllContent"
+                    />
+                  </th>
+                  <th>#</th>
+                  <th>Nội dung</th>
+                  <th>Link ảnh/video</th>
+                </tr>
+                <!-- <td>shinsad</td> -->
+              </thead>
+              <tbody id="results-tbody-content"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="bnt-add-content">
+            Thêm Content
+          </button>
+          <button class="btn-primary" id="bnt-add-groups-content">
+            Thêm Nhóm Content
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- ... Previous head content ... -->
+    <script src="./src/keyValidator.js"></script>
+    <script src="./src/accountsManager.js"></script>
+    <script src="./src/scangroups.js"></script>
+    <script src="./src/scanpage.js"></script>
+    <script src="./src/pagesmanager.js"></script>
+    <script src="./src/spamsttgroupspage.js"></script>
+    <script src="./src/selectcontent.js"></script>
+    <script src="./src/scancontent.js"></script>
+    <script src="./src/downloadvideo.js"></script>
+    <script src="./src/reupvideo.js"></script>
+  </body>
+</html>

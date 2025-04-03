@@ -1,0 +1,20 @@
+{
+  "saveLocation": "C:\\shin\\shinsad\\tool_affiliate\\MMO\\tool_spam_groups\\video\\output",
+  "threads": 5,
+  "videos": [
+    {
+      "index": "1",
+      "path": "C:\\shin\\shinsad\\tool_affiliate\\MMO\\tool_spam_groups\\video\\Vn_Snaptik_Com_6908165658152930562.mp4",
+      "status": "Đã xử lý"
+    },
+    {
+      "index": "2",
+      "path": "C:\\shin\\shinsad\\tool_affiliate\\MMO\\tool_spam_groups\\video\\Vn_Snaptik_Com_6941662828948409602.mp4",
+      "status": "Đã xử lý"
+    }
+  ],
+  "effects": [
+    "split_screen",
+    "blink_in"
+  ]
+}
