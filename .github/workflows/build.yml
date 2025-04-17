@@ -1,0 +1,30 @@
+name: Build Electron App
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Clone code
+      uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Package Electron App
+      run: npm run package
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: my-electron-app
+        path: dist/
