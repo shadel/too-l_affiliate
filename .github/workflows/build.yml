@@ -1,30 +1,53 @@
-name: Build Electron App
+name: Build & Release Electron App
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Thử chuyển sang ubuntu
+    runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3  # Dùng version mới nhất của checkout
+      # 1. Lấy code
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      # 2. Cài đặt Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Install dependencies
-      run: npm install
+      # 3. Cài dependencies
+      - name: Install dependencies
+        run: npm install
 
-    - name: Package Electron App
-      run: npm run package
+      # 4. Build .exe bằng script "package" trong package.json
+      - name: Package Electron App
+        run: npm run package
 
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: tool_spam_groups
-        path: dist/
+      # 5. Tạo tag tạm thời dựa trên SHA
+      - name: Create and push Git tag
+        id: tag
+        run: |
+          TAG="build-${GITHUB_SHA::8}"
+          echo "TAG=$TAG" >> $GITHUB_ENV
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag $TAG
+          git push origin $TAG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 6. Tạo Release và đính kèm file .exe
+      - name: Publish Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.TAG }}
+          name: Release ${{ env.TAG }}
+          files: |
+            dist/tool_spam_groups-win32-x64/tool_spam_groups.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
