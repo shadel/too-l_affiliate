@@ -6,11 +6,11 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest  # Thử chuyển sang ubuntu
 
     steps:
-    - name: Clone code
-      uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v3  # Dùng version mới nhất của checkout
 
     - name: Setup Node.js
       uses: actions/setup-node@v3
@@ -24,7 +24,7 @@ jobs:
       run: npm run package
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: tool_spam_groups
         path: dist/
