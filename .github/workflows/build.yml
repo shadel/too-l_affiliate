@@ -1,34 +1,36 @@
 name: Build & Release Electron App
+
 on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: windows-latest
+
     steps:
       # 1. Lấy code
       - name: Checkout code
         uses: actions/checkout@v3
-      
+
       # 2. Cài đặt Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      
+
       # 3. Cài dependencies
       - name: Install dependencies
         run: npm install
-      
+
       # 4. Build .exe bằng script "package" trong package.json
       - name: Package Electron App
         run: npm run package
-      
-      # 5. Tạo tag tạm thời dựa trên SHA (Sửa lỗi ở đây)
+
+      # 5. Tạo tag tạm thời dựa trên SHA
       - name: Create and push Git tag
         id: tag
-        shell: bash  # Chỉ định rõ sử dụng bash thay vì PowerShell mặc định
         run: |
           TAG="build-${GITHUB_SHA::8}"
           echo "TAG=$TAG" >> $GITHUB_ENV
@@ -38,7 +40,7 @@ jobs:
           git push origin $TAG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
       # 6. Tạo Release và đính kèm file .exe
       - name: Publish Release
         uses: ncipollo/release-action@v1
