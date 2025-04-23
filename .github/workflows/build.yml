@@ -48,7 +48,7 @@ jobs:
         with:
           tag: ${{ env.TAG }}
           name: Release ${{ env.TAG }}
-          files: |
-            dist/tool_spam_groups-win32-x64/tool_spam_groups.exe
+          artifacts: "release.tar.gz,dist/*.exe"
+          bodyFile: "dist/tool_spam_groups-win32-x64/tool_spam_groups.exe"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
