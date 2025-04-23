@@ -48,6 +48,6 @@ jobs:
         with:
           tag: ${{ env.TAG }}
           name: Release ${{ env.TAG }}
-          artifacts: "dist/tool_spam_groups-win32-x64/tool_spam_groups.exe"
+          artifacts: "dist/tool_spam_groups-win32-x64"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
